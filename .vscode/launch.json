@@ -1,0 +1,33 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch Chrome",
+            "request": "launch",
+            "type": "chrome",
+            "url": "http://localhost:3000",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "name": "nodemon",
+            "program": "${workspaceFolder}/backend/app.js",
+            "request": "launch",
+            "restart": true,
+            "runtimeExecutable": "nodemon",
+            "skipFiles": [
+                "<node_internals>/**",
+                "${workspaceFolder}/client"
+            ],
+            "type": "node"
+        },
+        {
+            "type": "node-terminal",
+            "name": "Node",
+            "request": "launch",
+            "command": "node app.js",
+            "cwd": "${workspaceFolder}/backend"
+        }
+    ]
+}

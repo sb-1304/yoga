@@ -1,0 +1,89 @@
+{
+    "LOGIN": "user/login",
+    "REGISTER": "user/register",
+    "GET_STUDENT_DETAILS":"student/getStudentDetails",
+    "GET_TEACHER_DETAILS":"teacher/getTeacherDetails",
+    "CREATE_BOOKING": "student/createBooking",
+    "UPDATE_BOOKING": "student/updateBooking",
+    "DELETE_BOOKING": "student/deleteBooking",
+    "GET_ALL_BOOKINGS": "student/getAllBookings",
+    "STUDENT_UPDATE_DETAILS": "student/updateDetails",
+    "TEACHER_UPDATE_DETAILS": "teacher/updateDetails",
+    "GET_ALL_ASANAS": "teacher/getAllAsanas",
+    "ADD_ASANAS": "teacher/addAsanas",
+    "UPDATE_ASANAS": "teacher/updateAsanas",
+    "DELETE_ASANA": "teacher/deleteAsana",
+    "GET_ALL_TEACHERS": "teacher/getAllTeachers",
+    "GET_ALL_STUDENTS": "student/getAllStudents",
+    "JSON": {
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    },
+    "FORM_DATA": {
+        "headers": {
+            "Content-Type": "multipart/form-data"
+        }
+    },
+    "LEVELS": [
+        "Advanced-level",
+        "Beginner to Intermediate",
+        "Beginner-level",
+        "Intermediate to Advanced",
+        "Intermediate-level"
+    ],
+    "BENEFITS": [
+        "Back strengthening",
+        "Boosts digestion",
+        "Builds back muscles",
+        "Flexibility increases",
+        "Opens shoulders and chest",
+        "Opens the hips",
+        "Promotes digestion",
+        "Reduces menstrual pain",
+        "Reduces stress and anxiety",
+        "Stimulates abdominal organs",
+        "Stretches hips and thighs",
+        "Stretches inner thighs and groynes",
+        "Stretches the entire front body",
+        "Stretches the spine"
+    ],
+    "CONTRA_INDICATIONS": [
+        "Avoid if neck injury",
+        "Late pregnancy contraindicated",
+        "Low-back pain sufferers should avoid",
+        "Not advised for persons with insufficient spinal flexibility",
+        "Not for ankle injuries",
+        "Not for back sufferers",
+        "Not for hamstring injuries",
+        "Not for hypertensives",
+        "Not for knee or ankle injuries",
+        "Not for low-blood-pressure patients",
+        "Not for pregnant women",
+        "Not for sciatica or spinal injuries",
+        "Not for tight hips",
+        "Not for tight quadriceps",
+        "Not for wrist injuries",
+        "Not recommended for those with low back pain",
+        "Not suitable for those with hip or knee injuries",
+        "Not recommended for those with limited spinal flexibility",
+        "Not suggested for persons with high blood pressure or heart problems",
+        "Unsuitable for hip or knee injuries",
+        "Unsuitable for neck injury",
+        "Unsuitable for neck or shoulder injuries",
+        "Unsuitable for neck or spine injuries"
+    ],
+    "POSE_TYPE": [
+        "Arm Balance Yoga Poses",
+        "Chest-Opening Yoga Poses",
+        "Forward Bend Yoga Poses",
+        "Hip-Opening Seated Yoga",
+        "Restorative Yoga Poses",
+        "Seated Yoga Poses",
+        "Standing Yoga Poses",
+        "Twist Yoga Poses",
+        "Yoga Backbends"
+    ],
+    "TIMEOUT": 20000,
+    "BASE_URL": "http://localhost:8080/"
+}

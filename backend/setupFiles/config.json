@@ -1,0 +1,50 @@
+{
+    "DATABASE_DETAILS": {
+        "host": "127.0.0.1",
+        "port": 3306,
+        "user": "root",
+        "password": "rootuser",
+        "database": "yoga"
+    },
+    "SECRET": "THIS IS USED TO SIGN AND VERIFY JWT TOKENS, REPLACE IT WITH YOUR OWN SECRET, IT CAN BE ANY STRING",
+    "PORT": 8080,
+    "STATUS_CODES": {
+        "OK": 200,
+        "BAD_REQUEST": 400,
+        "UNAUTHORISED": 401,
+        "NOT_FOUND": 404,
+        "INTERNAL_SERVER": 500
+    },
+    "BAD_REQUEST": "BAD_REQUEST",
+    "UNAUTHORISED": "UNAUTHORISED_ERROR",
+    "INITIAL_DATA": {
+        "username": "asd@g.com",
+        "username2": "asda@g.com",
+        "password": "asd",
+        "name": "John Wick",
+        "name2": "Willy Wonka",
+        "dob": "1998-04-26",
+        "gender": "male",
+        "level": "Beginner-level",
+        "sequence": [
+            "Bow Pose",
+            "Camel Pose"
+        ],
+        "sequence2": [
+            "Fire Log Pose"
+        ],
+        "pose_name": "Bow Pose",
+        "sanskrit_name": "Dhanurasana",
+        "pose_type": ["Arm Balance Yoga Poses"],
+        "image": "https://firebasestorage.googleapis.com/v0/b/yogaplanner-c33bc.appspot.com/o/download.jpeg?alt=media&token=d4910290-4fc9-49dd-9224-4ef38755006c",
+        "benefits": [
+            "Stretches hips and thighs",
+            "Stretches inner thighs and groynes",
+            "Stretches the entire front body"
+        ],
+        "contra_indications": [
+            "Unsuitable for neck or spine injuries",
+            "Not for tight quadriceps."
+        ]
+    }
+}
